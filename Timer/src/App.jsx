@@ -28,7 +28,7 @@ function App() {
   }
   function resetTimer (){
     clearInterval(timeRef.current);
-    Settimer(30);
+    Settimer(60*60);
     timeRef.current=null;
     SetisRunning(false);
   }
